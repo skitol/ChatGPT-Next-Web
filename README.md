@@ -3,11 +3,11 @@
 
 <h1 align="center">ChatGPT Next Web</h1>
 
-English / [简体中文](./README_CN.md)
+English / [Simplified Chinese](./README_CN.md)
 
 One-Click to get well-designed cross-platform ChatGPT web UI.
 
-一键免费部署你的跨平台私人 ChatGPT 应用。
+One-click free deployment of your cross-platform private ChatGPT application.
 
 [![Web][Web-image]][web-url]
 [![Windows][Windows-image]][download-url]
@@ -16,7 +16,7 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 
 [Web App](https://chatgpt.nextweb.fun/) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Discord](https://discord.gg/YCkeafCafC) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
-[网页版](https://chatgpt.nextweb.fun/) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ 群](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[Web version](https://chatgpt.nextweb.fun/) / [Client](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Feedback](https://github .com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ Group](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [Reward Developer](https:/ /user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
 
 [web-url]: https://chatgpt.nextweb.fun
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
@@ -45,7 +45,7 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 - New in v2: create, share and debug your chat tools with prompt templates (mask)
 - Awesome prompts powered by [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 - Automatically compresses chat history to support long conversations while also saving your tokens
-- I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어
+- I18n: English, Spanish, Italian, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어
 
 ## Roadmap
 
@@ -63,40 +63,40 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 - 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
 - 🚀 v2.8 now we have a client that runs across all platforms!
 
-## 主要功能
+## The main function
 
-- 在 1 分钟内使用 Vercel **免费一键部署**
-- 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）, [下载地址](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-- 完整的 Markdown 支持：LaTex 公式、Mermaid 流程图、代码高亮等等
-- 精心设计的 UI，响应式设计，支持深色模式，支持 PWA
-- 极快的首屏加载速度（~100kb），支持流式响应
-- 隐私安全，所有数据保存在用户浏览器本地
-- 预制角色功能（面具），方便地创建、分享和调试你的个性化对话
-- 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
-- 自动压缩上下文聊天记录，在节省 Token 的同时支持超长对话
-- 多国语言支持：English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština
-- 拥有自己的域名？好上加好，绑定后即可在任何地方**无障碍**快速访问
+- Use Vercel **Free One-Click Deployment** within 1 minute
+- Provide a very small (~5MB) cross-platform client (Linux/Windows/MacOS), [download address](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+- Full Markdown support: LaTex formulas, Mermaid flowcharts, code highlighting, etc.
+- Well-designed UI, responsive design, support dark mode, support PWA
+- Extremely fast first screen loading speed (~100kb), support streaming response
+- Privacy and security, all data is stored locally in the user's browser
+- Prefabricated character functions (masks) to easily create, share and debug your personalized dialogue
+- Massive list of built-in prompts, from [Chinese](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [English](https://github.com/f/awesome-chatgpt-prompts )
+- Automatically compress contextual chat records, and support long conversations while saving Token
+- 多国语语手机：English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština
+- Have your own domain name? Best of all, bind it for quick access from anywhere **Barrier-Free**
 
-## 开发计划
+## Development Plan
 
-- [x] 为每个对话设置系统 Prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
-- [x] 允许用户自行编辑内置 Prompt 列表
-- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
-- [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
-- [x] 使用 tauri 打包桌面应用
-- [x] 支持自部署的大语言模型：开箱即用 [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) ，服务端部署 [LocalAI 项目](https://github.com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly 等等，或者使用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
-- [ ] 插件机制，支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+- [x] Set system prompt for each chat [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- [x] Allow users to edit the list of built-in prompts
+- [x] Premade characters: use premade characters to quickly customize new conversations [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] Share as image, share to ShareGPT link [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
+- [x] Use tauri to package desktop applications
+- [x] Large language model that supports self-deployment: out-of-the-box [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), server-side deployment [LocalAI project](https://github .com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly etc., or use [api-for-open-llm](https://github.com /xusenlinzy/api-for-open-llm)
+- [ ] Plug-in mechanism, support online search, calculator, call other platform api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
 
-## 最新动态
+## Latest News
 
-- 🚀 v2.0 已经发布，现在你可以使用面具功能快速创建预制对话了！ 了解更多： [ChatGPT 提示词高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
-- 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：https://github.com/mushan0x0/AI0x0.com
-- 🚀 v2.7 现在可以将会话分享为图片了，也可以分享到 ShareGPT 的在线链接。
-- 🚀 v2.8 发布了横跨 Linux/Windows/MacOS 的体积极小的客户端。
+- 🚀 v2.0 has been released, now you can use the mask function to quickly create pre-made dialogues! Learn more: [ChatGPT Prompt Word Advanced Skills: Zero, One, and Few Shot Prompts](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138).
+- 💡 Want to use this item more conveniently anytime, anywhere? You can try this desktop plugin: https://github.com/mushan0x0/AI0x0.com
+- 🚀 v2.7 Now you can share the session as a picture, and you can also share the online link to ShareGPT.
+- 🚀 v2.8 released a very small client across Linux/Windows/MacOS.
 
 ## Get Started
 
-> [简体中文 > 如何开始使用](./README_CN.md#开始使用)
+> [Simplified Chinese> How to get started](./README_CN.md#Get started)
 
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. Click
@@ -105,13 +105,13 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 
 ## FAQ
 
-[简体中文 > 常见问题](./docs/faq-cn.md)
+[Simplified Chinese> Frequently Asked Questions](./docs/faq-cn.md)
 
 [English > FAQ](./docs/faq-en.md)
 
 ## Keep Updated
 
-> [简体中文 > 如何保持代码更新](./README_CN.md#保持更新)
+> [Simplified Chinese> How to keep the code updated](./README_CN.md#Keep updated)
 
 If you have deployed your own project with just one click following the steps above, you may encounter the issue of "Updates Available" constantly showing up. This is because Vercel will create a new project for you by default instead of forking this project, resulting in the inability to detect updates correctly.
 
@@ -139,7 +139,7 @@ You can star or watch this project or follow author to get release notifictions 
 
 ## Access Password
 
-> [简体中文 > 如何增加访问密码](./README_CN.md#配置页面访问密码)
+> [Simplified Chinese> How to add access password](./README_CN.md#Configure page access password)
 
 This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. The value should be passwords separated by comma like this:
 
@@ -151,7 +151,7 @@ After adding or modifying this environment variable, please redeploy the project
 
 ## Environment Variables
 
-> [简体中文 > 如何配置 api key、访问密码、接口代理](./README_CN.md#环境变量)
+> [Simplified Chinese> How to configure api key, access password, interface proxy](./README_CN.md#environment variable)
 
 ### `OPENAI_API_KEY` (required)
 
@@ -197,7 +197,7 @@ NodeJS >= 18, Docker >= 20
 
 ## Development
 
-> [简体中文 > 如何进行二次开发](./README_CN.md#开发)
+> [Simplified Chinese> How to carry out secondary development](./README_CN.md#development)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
@@ -222,7 +222,7 @@ yarn dev
 
 ## Deployment
 
-> [简体中文 > 如何部署到私人服务器](./README_CN.md#部署)
+> [Simplified Chinese> How to deploy to a private server](./README_CN.md#deployment)
 
 ### Docker (Recommended)
 
@@ -275,7 +275,7 @@ If you want to add a new translation, read this [document](./docs/translation.md
 
 ### Sponsor
 
-> 仅列出捐赠金额 >= 100RMB 的用户。
+> Only list users with donation amount >= 100RMB.
 
 [@mushan0x0](https://github.com/mushan0x0)
 [@ClarenceDan](https://github.com/ClarenceDan)
